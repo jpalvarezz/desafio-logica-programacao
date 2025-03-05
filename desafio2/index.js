@@ -23,4 +23,4 @@ function getVD(victory, defeat) {
     return { rank, saldo }; // Retornamos um objeto com os dois valores
 }
 
-console.log(`O Herói tem saldo de vitórias de ${VD.saldo} e está no rank ${VD.rank}`);
+console.log("O Herói tem saldo de vitórias de " + VD.saldo + " e está no rank " + VD.rank);
